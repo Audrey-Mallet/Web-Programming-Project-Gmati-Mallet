@@ -1,0 +1,49 @@
+More about Efrei 
+Step into the heart of digital onnovation where techinal mastery meets the leadership of tommorow.
+
+Click on the button below if you wznt to access myEfrei
+[Button: MyEfrei] -> Link to the connection Page (https://www.myefrei.fr)
+
+About Efrei
+Efrei (formerly the École Française d'Électronique et d'Informatique) is one of France's premier private engineering schools specializing in computer science and digital technologies. Located primarily in Villejuif (just south of Paris) with a newer campus in Bordeaux, it has built a reputation for being highly "business-friendly" and technically rigorous.
+
+As of 2026, here is a breakdown of what makes their Computer Science department distinct:
+
+1. Ranking and Reputation
+Efrei consistently ranks at the top of French "private" engineering school lists.
+
+    Top 10 National: In 2026 rankings, it holds a spot in the top 10 engineering schools nationwide and is often ranked as the #1 or #2 private engineering school for IT and digital technologies in France.
+    CTI Accreditation: Its degrees are fully accredited by the Commission des Titres d'Ingénieur (CTI), ensuring the "Ingénieur" title is recognized both by the state and internationally.
+
+2. Academic Structure
+The curriculum is designed as a 5-year integrated program (2-year "Prépa" followed by a 3-year "Cycle Ingénieur"), but they also offer Expert Programs (Bachelors and Masters) for those looking for more specialized, shorter paths.
+
+Core Specializations include:
+    Software Engineering: Focused on full-stack development, DevOps, and agile methodologies.
+    Cybersecurity: Efrei is a member of the Cyber Campus, a major French hub for security players. They offer hands-on training in ethical hacking and network defense.
+    Data & AI: Training in machine learning, big data architectures, and data modeling.
+    Cloud & Networks: Focusing on Azure/AWS infrastructures and distributed systems.
+    Bio-informatics & Digital Health: A unique niche for students interested in the intersection of coding and biology.
+
+3. Industry Connections and "Employability"
+This is perhaps Efrei's strongest suit. The school operates like a bridge to the corporate world:
+
+    The Network: They have partnerships with over 2,000 companies (including giants like Capgemini, Thales, and Microsoft).
+    Patnerships: Efrei maintains strategic partnerships and patronage with industry leaders such as Microsoft, Capgemini, Thales, and Societe Generale, ensuring direct career pipelines for its students.
+    Apprenticeships: A very large portion of students spend their final years in "Alternance" (apprenticeship), where the company pays their tuition and provides a salary.
+
+4. International Outlook
+Efrei is quite aggressive about global exposure. All engineering students are required to spend at least one semester abroad.
+
+    They have 40+ international double-degree agreements.
+    More than 50% of the Master-level courses are available entirely in English to prepare students for international careers.
+
+5. Student Life and "Tech Culture"
+The vibe at Efrei is very "maker-centric."
+
+Innovation Lab: A dedicated space for prototyping, 3D printing, and IoT projects.
+Associations: There are over 50 student-led clubs, many of which are technical (robotics, gaming, coding competitions) or focused on "Efrei for Good" (tech for social impact).
+
+[Image clickable] Our partners -> https://www.efrei.fr/entreprises-partenaires/
+
+[Image clickable] Our associations -> https://www.efrei.fr/vie-associative/
