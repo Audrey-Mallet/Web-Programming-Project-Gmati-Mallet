@@ -1,2 +1,68 @@
 
+1ère année de prépa - Rentrée classique 
+Informatique:
+-> Algorithmique / Algorithmics
+-> Programmation en Python (PRJ - Fort Boyar) / Python Programming
+-> Structures de Données et Programmation 1 (PRJ - Jeux) / 
+-> Compléxité 
+
+2e année de Prépa
+-> Structures de Données et Programmation 2
+-> Introduction au système Linux
+-> Réseaux 1: Concepts de base
+-> Bases de données 1: Concepts de base (PRJ - DB + vidéo)
+-> Java 1: Fondamentaux de la POO
+-> Programmation Web 1: HTML, CSS, JS (PRJ - site web)
+
+#############################################################
+
+Undergraduate Year 1 (P1) - Computer Science Modules
+Building a solid foundation in logic, programming logic, and digital culture.
+
+Module
+
+Algorithmics
+-> Learning the core logic of programming and problem-solving strategies.
+
+Python Programming 
+-> Implementation of algorithms using Python.
+-> PROJECT: Fort Boyard Remake
+
+Data Structures and Programming 1
+-> Learning how to organize data efficiently.
+-> PROJECT: Game development
+
+Complecxity
+-> Studying the effiency and performance of algorithms
+
+_____________________________________________________________
+
+Undergraduate Year 2 (P2) - Computer Science Modules
+Moving towards system management, database, and memory management.
+
+Module
+
+Data Structures and Programming 2
+-> Advanced study of data organization and memory management.
+
+Introduction to Linux Systems
+-> Mastering the command line, shell environment, and system administration basics.
+
+Module: Networks 1: Basic Concepts
+-> Understanding the foundations of data transmission and the OSI model.
+
+Module: Databases 1: Basic Concepts
+-> Designing relational schemas and managing data 
+-> PROJECT: Database creation + Video production.
+
+Java 1: OOP Fundamentals
+-> Learning Object-Oriented Programming (OOP) concepts: Classes, objects, and inheritance.
+
+Web Programming 1
+-> Building modern interfaces using HTML, CSS, and JavaScript 
+-> PROJECT: Website development.
+
+
+
+Source: https://www.efrei.fr/formation/prepas-integrees/
 
