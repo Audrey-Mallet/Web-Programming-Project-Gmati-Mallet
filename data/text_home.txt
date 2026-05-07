@@ -13,5 +13,3 @@ project-based learning, students evolve into versatile developers capable of des
 from initial specification to final delivery.
 
 [Button: Learn more] -> https://eng.efrei.fr/undergraduate-programs/computer-science/
-
-

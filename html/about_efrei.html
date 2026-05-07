@@ -9,17 +9,22 @@
 
     <body>
         <header>
-            <h1>Efrei: Grande École d'Ingénieurs</h1>
-            <nav>
-                <a href="./home.html">Home</a>
-                <a href="./faculty.html">Faculty</a>
-                <a href="./couses_training.html">Courses & Training</a>
-                <a href="./about_efrei.html">About Efrei</a>
-                <a href="./calendar.html">Calendar</a>
-            </nav>
-        </header>
+            <div class="topbar">
+                <div class="topbar_container">
+                    <div class="topbar_left">
+                        <img src="../img/logo_efrei.png" alt="Efrei Logo" class="logo_img">
+                        <span class="page_name">About Efrei</span>
+                    </div>
 
-        <main> 
+                    <div class="topbar_right">
+                        <form class="search_bar">
+                            <input type="text" placeholder="Search..." name="search">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
             <section id="efrei-intro">
                 <a href="https://www.myefrei.fr">
                     <img src="../img/image_site_efrei.png" alt="Efrei Campus and Portal" height="300" width="600">
@@ -30,7 +35,17 @@
                 <p>Click the button below to access the student portal:</p>
                 <button type="button" onclick="window.location.href='https://www.myefrei.fr';" class="btn">MyEfrei</button>
             </section>
+            
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./faculty.html">Faculty</a>
+                <a href="./couses_training.html">Courses & Training</a>
+                <a href="./about_efrei.html">About Efrei</a>
+                <a href="./calendar.html">Calendar</a>
+            </nav>
+        </header>
 
+        <main> 
             <section id="efrei-history">
                 <h2>90 Years of Excellence</h2>
                 <p>Founded in 1936, Efrei Paris is a prestigious engineering school located in Villejuif, France. It offers a comprehensive curriculum in computer science, electronics, and telecommunications, fostering innovation and excellence in technology education. With a strong emphasis on practical experience and industry partnerships, Efrei prepares its students for successful careers in the rapidly evolving tech landscape.</p>
@@ -120,5 +135,3 @@
         <script src="../js/script.js"></script>
     </body>
 </html>
-
-
