@@ -30,10 +30,9 @@ e. Any other relevant proposals will be encouraged and rewarded.
 [DONE] [home] 
 [DONE] [about_efrei] 
 [DONE] [about_us] 
-[IN PROGRESS] [courses and training programs] 
-
-[IN PROGRESS] [calendar]
-[IN PROGRESS] [faculty]
+[DONE] [courses and training programs] 
+[DONE] [calendar]
+[DONE] [faculty]
 
 3. Include links to the CSS and JS files.
 [IN PROGRESS]
@@ -46,7 +45,6 @@ e. Any other relevant proposals will be encouraged and rewarded.
 [DONE] [about_efrei] 
 [DONE] [about_us] 
 [IN PROGRESS] [courses and training programs] 
-
 [IN PROGRESS] [calendar]
 [IN PROGRESS] [faculty]
 
@@ -55,7 +53,6 @@ e. Any other relevant proposals will be encouraged and rewarded.
 [IN PROGRESS] [about_efrei] 
 [IN PROGRESS] [about_us] 
 [IN PROGRESS] [courses and training programs] 
-
 [IN PROGRESS] [calendar]
 [IN PROGRESS] [faculty]
 
@@ -64,7 +61,6 @@ e. Any other relevant proposals will be encouraged and rewarded.
 [IN PROGRESS] [about_efrei] 
 [IN PROGRESS] [about_us] 
 [IN PROGRESS] [courses and training programs] 
-
 [IN PROGRESS] [calendar]
 [IN PROGRESS] [faculty]
 
