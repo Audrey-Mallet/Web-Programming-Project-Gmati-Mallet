@@ -1,13 +1,40 @@
+/*===================================================
+                    STYLES.CSS
+  ===================================================*/
+
+/*-------- GENERAL LAYOUT, STYLE AND BODY --------*/
+
+body {
+    background-color: rgb(250, 250, 250) ;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: rgb(3, 3, 3);
+    /*text-align: justify;
+    padding: 15px;*/
+}
+
+header {
+    width: 100%;
+}
+
+footer {}
+
+/*---- Variation in the header ----*/
+.topbar {}
+
+.topbar_container {
+    max-width: 1016px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar_left {}
+
+.topbar_right {}
 
 
 
 
-
-
-
-
-
-
-
+/*===================================================*/
 
 

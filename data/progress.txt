@@ -12,7 +12,8 @@ Step 2: Getting Started
 1. Create (at least) 4 HTML pages such as:
 a. Home, which will serve as the index page (Introduction to the EFREI
 Computer Science Department, carousel, etc.).
-[IN PROGRESS] [home] + [About Efrei]
+[DONE] [Home] 
+[] [About Efrei]
 
 b. Courses and training programs.
 [IN PROGRESS] (module + projet)
@@ -21,7 +22,7 @@ c. Faculty.
 [IN PROGRESS] (teacher's info and details)
 
 d. Contact/About Us.
-[IN PROGRESS] 
+[DONE] 
 
 e. Any other relevant proposals will be encouraged and rewarded.
 [IN PROGRESS] [calendar]
@@ -35,10 +36,10 @@ e. Any other relevant proposals will be encouraged and rewarded.
 [DONE] [faculty]
 
 3. Include links to the CSS and JS files.
-[IN PROGRESS]
+[IN PROGRESS] JS files
 
 4. Add an EFREI logo to your website.
-[IN PROGRESS] (in header)
+[DONE] (in header)
 
 5. Add content to your web pages (forms, calendar, faculty/student area, etc.).
 [DONE] [home] 

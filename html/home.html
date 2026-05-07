@@ -65,14 +65,48 @@
                     <img src="../media/image_pc.jpg" alt="Students working on computers" height="300" width="600">
                 </a>
                 <p>
-                    The Computer Science Department focuses on transforming complex problems into efficient digital solutions through a mastery of algorithmic strategies, multi-language programming (Python, C++, Java), and modern system architectures. 
+                    The Computer Science Department focuses on transforming complex problems into efficient digital solutions through a mastery of <strong>strategies</strong> , <strong>multi-language programming</strong> (Python, C++, Java), and <strong>modern system architectures</strong>. 
                     <br><br>
-                    By blending theoretical foundations in data structures and cybersecurity with intensive project-based learning, students evolve into versatile developers capable of designing sophisticated software from initial specification to final delivery.
+                    By blending theoretical foundations in <strong>data structures</strong> and <strong>cybersecurity</strong> with intensive project-based learning, students evolve into versatile developers capable of designing sophisticated software from initial specification to final delivery.
                 </p>
                 
                 <button type="button" onclick="window.location.href='https://eng.efrei.fr/undergraduate-programs/computer-science/';" class="btn">
                     Visit Official Site
                 </button>
+            </section>
+
+            <section id="academic-goals">
+                <h2>Our Pedagogical Approach</h2>
+                <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of <strong>efficiency</strong>, <strong>scalability</strong>, and <strong>performance</strong>.</p>
+                <div class="goals-container">
+                    <article>
+                        <h3>1. Logic & Problem Solving</h3>
+                        <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of efficiency, scalability, and performance.</p>
+                    </article>
+
+                    <article>
+                        <h3>2. Software Mastery</h3>
+                        <p>Throughout the undergraduate cycle, students gain proficiency in essential languages including <strong>Python</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, and <strong>SQL</strong>.</p>
+                    </article>
+
+                    <article>
+                        <h3>3. Infrastructure & Security</h3>
+                        <p>Beyond simple coding, our curriculum explores the heart of the machine. Students dive into <strong>operating system mechanisms</strong>, <strong>IP network protocols</strong>, and <strong>database administration</strong>. The program concludes with an essential introduction to <strong>modern cybersecurity principles</strong> and <strong>parallel programming</strong>.</p>
+                    </article>
+                </div>
+
+            </section>
+
+            <section> 
+                <h2 id="chat-interface">Chat Interface</h2>
+
+                <div id="chat-messages"></div>
+
+                <div id="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask your question...">
+                    <button id="send-button" onclick="fetchJSON('../json/intents.json')">Send</button>
+                    <button id="clear-button" onclick="clearChat()">Clear</button>
+                </div>
             </section>
         </main>
 

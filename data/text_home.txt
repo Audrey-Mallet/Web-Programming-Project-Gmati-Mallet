@@ -13,3 +13,15 @@ project-based learning, students evolve into versatile developers capable of des
 from initial specification to final delivery.
 
 [Button: Learn more] -> https://eng.efrei.fr/undergraduate-programs/computer-science/
+
+Our Pedagogical Approach
+Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of efficiency, scalability, and performance.
+
+1. Logic & Problem Solving
+-> Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of efficiency, scalability, and performance.
+
+2. Software Mastery
+-> Throughout the undergraduate cycle, students gain proficiency in essential languages including <strong>Python, C, C++, Java, and SQL</strong>. We place a strong emphasis on Object-Oriented Programming (OOP), ensuring mastery of core concepts like inheritance and polymorphism.
+
+3. Infrastructure & Security
+-> Beyond simple coding, our curriculum explores the heart of the machine. Students dive into operating system mechanisms, IP network protocols, and database administration. The program concludes with an essential introduction to modern cybersecurity principles and parallel programming.
