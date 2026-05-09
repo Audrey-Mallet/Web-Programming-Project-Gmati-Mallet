@@ -89,13 +89,13 @@ footer {
     border-top: 1px solid #e0e0e0;
 }
 
-footer p { 
-    font-size: 0.85rem; 
-    color: #666666; 
+footer p {
+    font-size: 0.85rem;
+    color: #666666;
 }
 
-footer nav a { 
-    color: #000000; 
+footer nav a {
+    color: #000000;
     text-decoration: underline;
 }
 
@@ -127,7 +127,7 @@ footer nav a {
 }
 
 #efrei-intro img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     object-fit: contain;
@@ -141,7 +141,8 @@ footer nav a {
 }
 
 /* On ajuste le H1 pour qu'il ne soit pas centré comme le reste du site */
-#efrei-intro h1, #efrei-intro p {
+#efrei-intro h1,
+#efrei-intro p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +180,8 @@ footer nav a {
 
 #department img {
     max-width: 100%;
-    height: auto; /* Empêche l'écrasement */
+    height: auto;
+    /* Empêche l'écrasement */
     border-radius: 10px;
     object-fit: contain;
 }
@@ -216,7 +218,7 @@ footer nav a {
 #calendrier-intro .btn {
     padding: 12px 30px;
     min-width: 150px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 
@@ -235,7 +237,8 @@ nav {
 }
 
 nav a {
-    background-color: #000000; /* Boutons menu noirs */
+    background-color: #000000;
+    /* Boutons menu noirs */
     color: #ffffff;
     padding: 10px 22px;
     text-decoration: none;
@@ -260,7 +263,8 @@ main {
     text-align: center;
 }
 
-main p, main article {
+main p,
+main article {
     text-align: justify;
     max-width: 800px;
     margin-left: auto;
@@ -271,18 +275,19 @@ section {
     margin-bottom: 60px;
 }
 
-h1 { 
-    font-size: 2.5rem; 
-    margin-bottom: 20px; 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     text-align: center;
     color: #000000;
 }
 
-h2 { 
-    font-size: 1.8rem; 
-    margin-bottom: 25px; 
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
     color: #000000;
-    border-bottom: 2px solid #000000; /* Ligne noire sous les titres */
+    border-bottom: 2px solid #000000;
+    /* Ligne noire sous les titres */
     display: inline-block;
 }
 
@@ -330,7 +335,8 @@ h2 {
 
 .user {
     align-self: flex-end;
-    background-color: #f0f0f0; /* Gris très clair pour l'utilisateur */
+    background-color: #f0f0f0;
+    /* Gris très clair pour l'utilisateur */
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 2px 15px;
@@ -343,7 +349,8 @@ h2 {
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 15px 2px;
-    border: 1px solid #000000; /* Contour noir pour le bot */
+    border: 1px solid #000000;
+    /* Contour noir pour le bot */
 }
 
 #chat-input {
@@ -404,7 +411,3 @@ h2 {
     border: 1px solid #eeeeee;
     transition: transform 0.3s ease;
 }
-
-
-
-
