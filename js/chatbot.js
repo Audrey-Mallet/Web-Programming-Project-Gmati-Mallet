@@ -54,7 +54,7 @@ function sendMessage(intents) {
     // extract the text value + remove extra blank space
     const userInput = userInputField.value.trim();
     // If the input is empty = do nothing
-    if (!userInput) return; 
+    if (!userInput) return;
 
     // clear the input field for next message
     userInputField.value = '';
@@ -63,9 +63,9 @@ function sendMessage(intents) {
 
     // display the user's message in the chat window
     showMessage(userInput, 'user', timestamp);
-    
+
     // add the user message to the history object
-    historyMessages.addMessage({message: userInput, sender: 'user', timestamp: timestamp});
+    historyMessages.addMessage({ message: userInput, sender: 'user', timestamp: timestamp });
 
     // ProcessMessage() the message to find the appropriate bot response
     const response = processMessage(intents, userInput);
@@ -73,10 +73,10 @@ function sendMessage(intents) {
     // display the bot's response
     setTimeout(() => {
         showMessage(response, 'bot', timestamp);
-        
+
         // add the bot response to the history object
-        historyMessages.addMessage({ message: response, sender: 'bot', timestamp: timestamp});
-        
+        historyMessages.addMessage({ message: response, sender: 'bot', timestamp: timestamp });
+
         // save the updated history to Session Storage
         saveMessages();
     }, 500);
@@ -121,8 +121,8 @@ function showMessage(message, type, timestamp) {
 function saveMessages() {
     console.log('Saving chat history...');
     console.log(historyMessages.getHistory());
-    sessionStorage.setItem('chatHistory', 
-    JSON.stringify(historyMessages.getHistory().map(msg => msg.message)));
+    sessionStorage.setItem('chatHistory',
+        JSON.stringify(historyMessages.getHistory().map(msg => msg.message)));
 }
 
 /*Function to load messages from the browser session*/
