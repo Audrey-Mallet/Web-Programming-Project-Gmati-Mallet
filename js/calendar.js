@@ -1,87 +1,89 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Calendar Component ---
-    const calendarGrid = document.getElementById('calendar-grid');
-    const monthYearDisplay = document.getElementById('month-year');
-    const prevMonthBtn = document.getElementById('prev-month');
-    const nextMonthBtn = document.getElementById('next-month');
+    let currentMonth = new Date().getMonth();
+    let currentYear = new Date().getFullYear();
 
-    // Proceed only if we are on a page with the calendar
-    if (calendarGrid && monthYearDisplay) {
-        let currentDate = new Date();
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-        // Sample events (replace or remove as needed)
-        const events = [
-            { date: new Date(currentDate.getFullYear(), currentDate.getMonth(), 10), title: 'Project Deadline' },
-        ];
+    // Simple events list with year support
+    const events = [
+        /* october 2025 */
+        { day: 18, month: 10, year: 2025, title: 'DE : Introduction to Linux' },
+        /* december 2025 */
+        { day: 13, month: 12, year: 2025, title: 'DE : Data Structure and Programming 2' },
+        { day: 18, month: 12, year: 2025, title: 'DE : Networks 1 : Basic Concepts' },
+        /* february 2026 */
+        { day: 7, month: 3, year: 2026, title: 'CE : Databases 1: Basic Concepts' },
+        { day: 21, month: 3, year: 2026, title: 'DE : Databases 1: Basic Concepts' },
+        /* march 2026 */
+        { day: 18, month: 4, year: 2026, title: 'CE : Web Programming 1 : HTML, CSS, JS' },
+        /* april 2026 */
+        { day: 10, month: 5, year: 2026, title: 'Project Deadline : Web Programming 1 : HTML, CSS, JS' },
+        { day: 13, month: 5, year: 2026, title: 'TP : Java 1: Fundamentals of OOP' },
+        { day: 16, month: 5, year: 2026, title: 'DE : Web Programming 1 : HTML, CSS, JS' },
+        { day: 20, month: 5, year: 2026, title: 'CE : Java 1: Fundamentals of OOP' },
+        /* may 2026 */
+        { day: 3, month: 6, year: 2026, title: 'DE : Java 1: Fundamentals of OOP' }
+    ];
 
-        function renderCalendar(date) {
-            calendarGrid.innerHTML = '';
+    function renderCalendar() {
+        document.getElementById('month-year').innerText = monthNames[currentMonth] + " " + currentYear;
+        const grid = document.getElementById('calendar-grid');
+        grid.innerHTML = ""; // Clear the grid
 
-            const year = date.getFullYear();
-            const month = date.getMonth();
+        // Find out what day of the week the 1st of the month is (1 = Monday, 7 = Sunday)
+        let firstDay = new Date(currentYear, currentMonth, 1).getDay();
+        if (firstDay === 0) firstDay = 7;
 
-            // Setup Header
-            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-            monthYearDisplay.textContent = `${monthNames[month]} ${year}`;
+        // Find total days in the month
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
-            let firstDayOfMonth = new Date(year, month, 1).getDay();
-            firstDayOfMonth = firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1; // Make Monday index 0
-            const daysInMonth = new Date(year, month + 1, 0).getDate();
-            const today = new Date();
+        // Add empty boxes for the days before the 1st
+        for (let i = 1; i < firstDay; i++) {
+            grid.innerHTML += `<div class="calendar-day empty"></div>`;
+        }
 
-            // Render empty slots before the 1st day of the month
-            for (let i = 0; i < firstDayOfMonth; i++) {
-                const emptyCell = document.createElement('div');
-                emptyCell.classList.add('calendar-day', 'empty');
-                calendarGrid.appendChild(emptyCell);
-            }
+        // Add the actual days of the month
+        for (let i = 1; i <= daysInMonth; i++) {
+            let eventHtml = "";
 
-            // Render days of the month
-            for (let i = 1; i <= daysInMonth; i++) {
-                const dayCell = document.createElement('div');
-                dayCell.classList.add('calendar-day');
-
-                // Mark today's date
-                if (year === today.getFullYear() && month === today.getMonth() && i === today.getDate()) {
-                    dayCell.classList.add('today');
+            // Check if there is an event on this day, month, AND year. 
+            // Note: currentMonth is 0-11, so we add 1 to match the 1-12 human format in the events list!
+            for (let e of events) {
+                if (e.day === i && e.month === (currentMonth + 1) && e.year === currentYear) {
+                    eventHtml += `<div class="calendar-event">${e.title}</div>`;
                 }
-
-                // Day number
-                const dayNumber = document.createElement('div');
-                dayNumber.classList.add('calendar-day-number');
-                dayNumber.textContent = i;
-                dayCell.appendChild(dayNumber);
-
-                // Check for events
-                events.forEach(event => {
-                    if (event.date.getFullYear() === year && event.date.getMonth() === month && event.date.getDate() === i) {
-                        const eventDiv = document.createElement('div');
-                        eventDiv.classList.add('calendar-event');
-                        eventDiv.textContent = event.title;
-                        dayCell.appendChild(eventDiv);
-                    }
-                });
-
-                calendarGrid.appendChild(dayCell);
             }
-        }
 
-        // Navigation event listeners
-        if (prevMonthBtn) {
-            prevMonthBtn.addEventListener('click', () => {
-                currentDate.setMonth(currentDate.getMonth() - 1);
-                renderCalendar(currentDate);
-            });
+            // Create the HTML for the day box
+            grid.innerHTML += `
+                <div class="calendar-day">
+                    <div class="calendar-day-number">${i}</div>
+                    ${eventHtml}
+                </div>
+            `;
         }
-
-        if (nextMonthBtn) {
-            nextMonthBtn.addEventListener('click', () => {
-                currentDate.setMonth(currentDate.getMonth() + 1);
-                renderCalendar(currentDate);
-            });
-        }
-
-        // Initial render
-        renderCalendar(currentDate);
     }
+
+    // Previous month button
+    document.getElementById('prev-month').addEventListener('click', () => {
+        currentMonth--;
+        if (currentMonth < 0) {
+            currentMonth = 11;
+            currentYear--;
+        }
+        renderCalendar();
+    });
+
+    // Next month button
+    document.getElementById('next-month').addEventListener('click', () => {
+        currentMonth++;
+        if (currentMonth > 11) {
+            currentMonth = 0;
+            currentYear++;
+        }
+        renderCalendar();
+    });
+
+    // Run the function when the page loads
+    renderCalendar();
 });
