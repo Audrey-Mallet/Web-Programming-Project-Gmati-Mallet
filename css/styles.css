@@ -1,0 +1,410 @@
+/*===================================================
+                    STYLES.CSS
+  ===================================================*/
+
+/*-------- GENERAL LAYOUT, STYLE AND BODY --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+/*-------- HEADER, FOOTER & TOPBAR --------*/
+
+/*======== TOP BAR ========*/
+.topbar {
+    background-color: #000000;
+    padding: 15px 5%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.topbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar_left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo_img {
+    height: 45px;
+}
+
+.page_name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.search_bar input {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-family: inherit;
+    width: 150px;
+}
+
+.search_bar button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.search_bar button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*======== FOOTER ========*/
+footer {
+    background-color: #f4f4f4;
+    padding: 40px 5%;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer p { 
+    font-size: 0.85rem; 
+    color: #666666; 
+}
+
+footer nav a { 
+    color: #000000; 
+    text-decoration: underline;
+}
+
+/*===================================================*/
+
+/*-------- HEADER VERSION EFREI --------*/
+#efrei-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 5%;
+    gap: 30px;
+    background-color: #ffffff;
+}
+
+/* use flex to separate the space into 2 space */
+.intro-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#efrei-intro img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+#efrei-intro .btn {
+    align-self: center;
+    margin-top: 30px;
+    min-width: 150px;
+    padding: 12px 25px;
+}
+
+/* On ajuste le H1 pour qu'il ne soit pas centré comme le reste du site */
+#efrei-intro h1, #efrei-intro p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------- HEADER VERSION SCIENCE COMPUTER DEPARTMENT --------*/
+
+#department {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 5%;
+    gap: 30px;
+    background-color: #ffffff;
+}
+
+#department .intro-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#department .btn {
+    align-self: center;
+    margin-top: 30px;
+}
+
+#department .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#department img {
+    max-width: 100%;
+    height: auto; /* Empêche l'écrasement */
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+#department h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*-------- HEADER VERSION CALENDAR --------*/
+
+#calendrier-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+#calendrier-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+#calendrier-intro p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+#calendrier-intro .btn {
+    padding: 12px 30px;
+    min-width: 150px;
+    margin-top: 10px; 
+}
+
+
+
+/*===================================================*/
+
+/*-------- TEXT'S STYLES & NAVIGATION --------*/
+
+/*======== NAVIGATION ========*/
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    background-color: #000000; /* Boutons menu noirs */
+    color: #ffffff;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+}
+
+/*===================================================*/
+
+/*======== SECTIONS GÉNÉRALES ========*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main p, main article {
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+    text-align: center;
+    color: #000000;
+}
+
+h2 { 
+    font-size: 1.8rem; 
+    margin-bottom: 25px; 
+    color: #000000;
+    border-bottom: 2px solid #000000; /* Ligne noire sous les titres */
+    display: inline-block;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/*===================================================*/
+
+/*-------- CHATBOT --------*/
+
+/*======== CHATBOT (Noir & Blanc) ========*/
+#chat-interface-container {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+#chat-interface-header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+#chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: #f0f0f0; /* Gris très clair pour l'utilisateur */
+    color: #000000;
+    padding: 12px 18px;
+    border-radius: 15px 15px 2px 15px;
+    border: 1px solid #dddddd;
+}
+
+.bot {
+    align-self: flex-start;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 18px;
+    border-radius: 15px 15px 15px 2px;
+    border: 1px solid #000000; /* Contour noir pour le bot */
+}
+
+#chat-input {
+    display: flex;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+    gap: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+}
+
+#send-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#clear-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/*===================================================*/
+
+/*-------- SPECIFIC TO ABOUT_EFREI.HTML --------*/
+
+.info_grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1;
+    max-width: 450px;
+    text-align: center;
+}
+
+.info-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    transition: transform 0.3s ease;
+}
+
+
+
+

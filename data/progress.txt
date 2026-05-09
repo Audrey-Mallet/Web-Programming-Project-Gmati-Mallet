@@ -1,0 +1,72 @@
+
+Step 1: Choosing the website content and design
+1. Think about the design of your website (content, number of pages, etc.).
+2. Before beginning the programming phase, you must prepare your website’s
+visual style guide and design the site map (wireframe/Miro).
+Note: The site’s directory structure must not exceed 2 levels.
+Level 0: home page, Level 1: main page, Level 2: subpage
+[DONE]
+
+
+Step 2: Getting Started
+1. Create (at least) 4 HTML pages such as:
+a. Home, which will serve as the index page (Introduction to the EFREI
+Computer Science Department, carousel, etc.).
+[DONE] [Home] 
+[DONE] [About Efrei]
+
+b. Courses and training programs.
+[IN PROGRESS] (module + projet)
+
+c. Faculty.
+[IN PROGRESS] (teacher's info and details)
+
+d. Contact/About Us.
+[DONE] 
+
+e. Any other relevant proposals will be encouraged and rewarded.
+[IN PROGRESS] [calendar]
+
+2. Implement the header and footer on all pages.
+[DONE] [home] 
+[DONE] [about_efrei] 
+[DONE] [about_us] 
+[DONE] [courses and training programs] 
+[DONE] [calendar]
+[DONE] [faculty]
+
+3. Include links to the CSS and JS files.
+[IN PROGRESS] JS files
+
+4. Add an EFREI logo to your website.
+[DONE] (in header)
+
+5. Add content to your web pages (forms, calendar, faculty/student area, etc.).
+[DONE] [home] 
+[DONE] [about_efrei] 
+[DONE] [about_us] 
+[IN PROGRESS] [courses and training programs] 
+[IN PROGRESS] [calendar]
+[IN PROGRESS] [faculty]
+
+6. Add visual content to the pages (images, logo, etc.).
+[IN PROGRESS] [home] 
+[IN PROGRESS] [about_efrei] 
+[IN PROGRESS] [about_us] 
+[IN PROGRESS] [courses and training programs] 
+[IN PROGRESS] [calendar]
+[IN PROGRESS] [faculty]
+
+7. Implement responsive design.
+[IN PROGRESS] [home] 
+[IN PROGRESS] [about_efrei] 
+[IN PROGRESS] [about_us] 
+[IN PROGRESS] [courses and training programs] 
+[IN PROGRESS] [calendar]
+[IN PROGRESS] [faculty]
+
+
+Step 3: Add your personal touch!
+1. Add animation and interactivity to your website using JavaScript (office hours
+calendar management, interactive navigation menu, form validation, etc.)
+2. Use your creativity to add features to your website.
