@@ -95,7 +95,7 @@ footer {
 .btn-about:hover {
     background-color: #eeeeee;
     transform: translate(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .footer_bottom {
@@ -146,7 +146,7 @@ footer {
 }
 
 #efrei-intro img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     object-fit: contain;
@@ -171,7 +171,8 @@ footer {
     transform: translate(-2px);
 }
 
-#efrei-intro h1, #efrei-intro p {
+#efrei-intro h1,
+#efrei-intro p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -221,7 +222,8 @@ footer {
 
 #department img {
     max-width: 100%;
-    height: auto; /* Empêche l'écrasement */
+    height: auto;
+    /* Empêche l'écrasement */
     border-radius: 10px;
     object-fit: contain;
 }
@@ -258,7 +260,7 @@ footer {
 #calendrier-intro .btn {
     padding: 12px 30px;
     min-width: 150px;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .btn:hover {
@@ -287,7 +289,8 @@ nav {
 }
 
 nav a {
-    background-color: #000000; /* Boutons menu noirs */
+    background-color: #000000;
+    /* Boutons menu noirs */
     color: #ffffff;
     padding: 10px 22px;
     text-decoration: none;
@@ -312,7 +315,8 @@ main {
     text-align: center;
 }
 
-main p, main article {
+main p,
+main article {
     text-align: justify;
     max-width: 800px;
     margin-left: auto;
@@ -323,18 +327,19 @@ section {
     margin-bottom: 60px;
 }
 
-h1 { 
-    font-size: 2.5rem; 
-    margin-bottom: 20px; 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     text-align: center;
     color: #000000;
 }
 
-h2 { 
-    font-size: 1.8rem; 
-    margin-bottom: 25px; 
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
     color: #000000;
-    border-bottom: 2px solid #000000; /* Ligne noire sous les titres */
+    border-bottom: 2px solid #000000;
+    /* Ligne noire sous les titres */
     display: inline-block;
 }
 
@@ -382,7 +387,8 @@ h2 {
 
 .user {
     align-self: flex-end;
-    background-color: #f0f0f0; /* Gris très clair pour l'utilisateur */
+    background-color: #f0f0f0;
+    /* Gris très clair pour l'utilisateur */
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 2px 15px;
@@ -395,7 +401,8 @@ h2 {
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 15px 2px;
-    border: 1px solid #000000; /* Contour noir pour le bot */
+    border: 1px solid #000000;
+    /* Contour noir pour le bot */
 }
 
 #chat-input {
@@ -436,24 +443,24 @@ h2 {
 /*-------- SPECIFIC TO ABOUT_EFREI.HTML --------*/
 
 main ul {
-    display: inline-block; 
-    text-align: left;      
-    max-width: 700px;      
-    margin: 10px auto 30px auto; 
+    display: inline-block;
+    text-align: left;
+    max-width: 700px;
+    margin: 10px auto 30px auto;
     padding-left: 20px;
 }
 
 main ul li {
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
     line-height: 1.1;
 }
 
 .info-grid {
-    display: flex;         
-    flex-direction: row;   
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 30px;            
+    gap: 30px;
     margin: 50px auto;
     max-width: 1000px;
 }
@@ -465,9 +472,9 @@ main ul li {
 }
 
 .info-item img {
-    width: 100%;          
-    height: 250px;        
-    object-fit: cover;    
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
     border-radius: 12px;
     border: 1px solid #eeeeee;
     transition: transform 0.3s ease;
