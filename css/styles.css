@@ -290,7 +290,6 @@ nav {
 
 nav a {
     background-color: #000000;
-    /* Boutons menu noirs */
     color: #ffffff;
     padding: 10px 22px;
     text-decoration: none;
@@ -339,7 +338,6 @@ h2 {
     margin-bottom: 25px;
     color: #000000;
     border-bottom: 2px solid #000000;
-    /* Ligne noire sous les titres */
     display: inline-block;
 }
 
@@ -353,89 +351,6 @@ h2 {
     border: none;
     cursor: pointer;
     font-weight: 600;
-}
-
-/*===================================================*/
-
-/*-------- CHATBOT --------*/
-
-/*======== CHATBOT (Noir & Blanc) ========*/
-#chat-interface-container {
-    border: 2px solid #000000;
-    border-radius: 15px;
-    overflow: hidden;
-    max-width: 700px;
-    margin: 40px auto;
-}
-
-#chat-interface-header {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-}
-
-#chat-messages {
-    height: 400px;
-    overflow-y: auto;
-    padding: 20px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.user {
-    align-self: flex-end;
-    background-color: #f0f0f0;
-    /* Gris très clair pour l'utilisateur */
-    color: #000000;
-    padding: 12px 18px;
-    border-radius: 15px 15px 2px 15px;
-    border: 1px solid #dddddd;
-}
-
-.bot {
-    align-self: flex-start;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 12px 18px;
-    border-radius: 15px 15px 15px 2px;
-    border: 1px solid #000000;
-    /* Contour noir pour le bot */
-}
-
-#chat-input {
-    display: flex;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-top: 1px solid #eeeeee;
-    gap: 10px;
-}
-
-#user-input {
-    flex: 1;
-    padding: 12px;
-    border: 1px solid #cccccc;
-    border-radius: 25px;
-}
-
-#send-button {
-    background-color: #000000;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-
-#clear-button {
-    background-color: #ffffff;
-    color: #000000;
-    border: 1px solid #000000;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer;
 }
 
 /*===================================================*/
@@ -514,7 +429,6 @@ article {
     font-size: 1.5rem;
     color: #000000;
     margin-bottom: 15px;
-    /*add a trace*/
     border-bottom: 1px solid #eeeeee;
     padding-bottom: 10px;
 }
@@ -555,19 +469,112 @@ article {
 
 /*===================================================*/
 
-/*------- SPECIFIC TO ABOUT_US.HTML -------*/
+/*===================================================*/
 
-.faculty-intro {
-    text-align: center;
-    margin-bottom: 40px;
+/*-------- SPECIFIC TO ABOUT_EFREI.HTML --------*/
+
+main ul {
+    display: inline-block;
+    text-align: left;
+    max-width: 700px;
+    margin: 10px auto 30px auto;
+    padding-left: 20px;
 }
 
-.faculty-grid {
+main ul li {
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.info-grid {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     gap: 30px;
-    max-width: 900px;
-    margin: 0 auto 50px auto;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.info-item {
+    flex: 1;
+    max-width: 450px;
+    text-align: center;
+}
+
+.info-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    transition: transform 0.3s ease;
+}
+
+.info-item h3 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+}
+
+article {
+    text-align: center;
+}
+
+/*===================================================*/
+
+/*------- SPECIFIC TO ABOUT_US.HTML -------*/
+
+.member-card {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 800px;
+    text-align: left; 
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translate(-2px, -2px);
+}
+
+.member-card h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+#project-details article {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 850px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2); 
+    text-align: left;
+}
+
+#project-details article h3 {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#project-details article ul {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+#project-details article li {
+    margin-bottom: 10px;
 }
 
 /*===================================================*/
@@ -717,7 +724,6 @@ article {
     height: 20px;
 }
 
-
 /*===================================================*/
 
 /*------- FOR ALL -------*/
@@ -757,7 +763,7 @@ img:hover {
 
 .user {
     align-self: flex-end;
-    background-color: #f0f0f0; /* Gris très clair pour l'utilisateur */
+    background-color: #f0f0f0;
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 2px 15px;
@@ -770,7 +776,7 @@ img:hover {
     color: #000000;
     padding: 12px 18px;
     border-radius: 15px 15px 15px 2px;
-    border: 1px solid #000000; /* Contour noir pour le bot */
+    border: 1px solid #000000;
 }
 
 #chat-input {
