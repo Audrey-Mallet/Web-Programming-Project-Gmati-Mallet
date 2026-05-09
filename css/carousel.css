@@ -1,0 +1,80 @@
+/*-------- CAROUSEL COMPONENT --------*/
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-track {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Base style for all images */
+.carousel-slide {
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    border-radius: 20px;
+    border: 4px solid white;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    /* Animation settings */
+    transition: all 0.5s ease;
+
+    /* Default hidden state */
+    opacity: 0;
+    z-index: 0;
+    transform: scale(0.8);
+}
+
+/* Active (Center) Image */
+.carousel-slide.active-slide {
+    opacity: 1;
+    z-index: 10;
+    transform: scale(1);
+}
+
+/* Previous (Left) Image */
+.carousel-slide.prev-slide {
+    opacity: 1;
+    z-index: 5;
+    transform: translateX(-15vw) scale(0.9);
+}
+
+/* Next (Right) Image */
+.carousel-slide.next-slide {
+    opacity: 1;
+    z-index: 5;
+    transform: translateX(15vw) scale(0.9);
+}
+
+/* Navigation Buttons */
+.carousel-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.carousel-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background: #f4f4f4;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.carousel-btn:hover {
+    background: #ddd;
+}

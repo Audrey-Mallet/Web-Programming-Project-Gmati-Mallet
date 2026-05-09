@@ -1,58 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home - Efrei Computer Science</title>
-        <meta charset="UTF-8"> 
-        <link rel="stylesheet" href="../css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
 
-    <body>
-        <header>
-            <div class="topbar">
-                <div class="topbar_container">
-                    <div class="topbar_left">
-                        <img src="../img/logo_efrei.png" alt="Efrei Logo" class="logo_img">
-                        <span class="page_name">Computer Science Department</span>
-                    </div>
+<head>
+    <title>Home - Efrei Computer Science</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/carousel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-                    <div class="topbar_right">
-                        <form class="search_bar">
-                            <input type="text" placeholder="Search..." name="search">
-                            <button type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            
-            <section id="department">
-                <div class="intro-content">
-                    <h1>About Computer Science Departement</h1> 
-                    <p>Step into the heart of digital innovation where technical mastery meets the leadership of tomorrow.</p>
-                    <button type="button" onclick="window.location.href='https://www.efrei.fr';" class="btn">Click to know more </button>
-                </div>
-                
-                <div class="intro-image">
-                    <a href="https://www.myefrei.fr">
-                        <img src="../img/image_pc.jpg" alt="Efrei Campus and Portal" height="300" width="600">
-                    </a>
-                </div>
-            </section>
-
-            <nav>
-                <a href="./home.html">Home</a>
-                <a href="./faculty.html">Faculty</a>
-                <a href="./course_training.html">Courses & Training</a>
-                <a href="./about_efrei.html">About Efrei</a>
-                <a href="./calendar.html">Calendar</a>
-            </nav>
-        </header>
-
-        <main>
-            <section id="hero">
-                <div class="carousel-placeholder">
-                    //add CAROUSEL
-                    <p>[Carousel Area - Use JS to rotate images here]</p>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="topbar_container">
+                <div class="topbar_left">
+                    <img src="../img/logo_efrei.png" alt="Efrei Logo" class="logo_img">
+                    <span class="page_name">Computer Science Department</span>
                 </div>
 
                 <div class="topbar_right">
@@ -91,9 +54,16 @@
 
     <main>
         <section id="hero">
-            <div class="carousel-placeholder">
-                //add CAROUSEL
-                <p>[Carousel Area - Use JS to rotate images here]</p>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide" style="background-image: url('../img/asso_img.jpg')"></div>
+                    <div class="carousel-slide" style="background-image: url('../img/entreprise_img.jpg')"></div>
+                    <div class="carousel-slide" style="background-image: url('../img/image_pc.jpg')"></div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carousel-prev">&lt;</button>
+                    <button class="carousel-btn" id="carousel-next">&gt;</button>
+                </div>
             </div>
         </section>
 
@@ -129,7 +99,8 @@
             <h2>Our Pedagogical Approach</h2>
             <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on
                 teaching not just how to code, but how to think in terms of <strong>efficiency</strong>,
-                <strong>scalability</strong>, and <strong>performance</strong>.</p>
+                <strong>scalability</strong>, and <strong>performance</strong>.
+            </p>
             <div class="goals-container">
                 <article>
                     <h3>1. Logic & Problem Solving</h3>
@@ -142,7 +113,8 @@
                     <h3>2. Software Mastery</h3>
                     <p>Throughout the undergraduate cycle, students gain proficiency in essential languages including
                         <strong>Python</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, and
-                        <strong>SQL</strong>.</p>
+                        <strong>SQL</strong>.
+                    </p>
                 </article>
 
                 <article>
@@ -182,6 +154,8 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/chatbot.js"></script>
 </body>
 
 </html>
