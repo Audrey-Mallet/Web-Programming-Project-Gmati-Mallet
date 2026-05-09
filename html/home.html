@@ -1,131 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home - Efrei Computer Science</title>
-        <meta charset="UTF-8"> 
-        <link rel="stylesheet" href="../css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
 
-    <body>
-        <header>
-            <div class="topbar">
-                <div class="topbar_container">
-                    <div class="topbar_left">
-                        <img src="../img/logo_efrei.png" alt="Efrei Logo" class="logo_img">
-                        <span class="page_name">Computer Science Department</span>
-                    </div>
+<head>
+    <title>Home - Efrei Computer Science</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-                    <div class="topbar_right">
-                        <form class="search_bar">
-                            <input type="text" placeholder="Search..." name="search">
-                            <button type="submit">Submit</button>
-                        </form>
-                    </div>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="topbar_container">
+                <div class="topbar_left">
+                    <img src="../img/logo_efrei.png" alt="Efrei Logo" class="logo_img">
+                    <span class="page_name">Computer Science Department</span>
+                </div>
+
+                <div class="topbar_right">
+                    <form class="search_bar">
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
-            
-            <section id="department">
-                <div class="intro-content">
-                    <h1>About Computer Science Departement</h1> 
-                    <p>Step into the heart of digital innovation where technical mastery meets the leadership of tomorrow.</p>
-                    <button type="button" onclick="window.location.href='https://www.efrei.fr';" class="btn">Click to know more </button>
-                </div>
-                
-                <div class="intro-image">
-                    <a href="https://www.myefrei.fr">
-                        <img src="../img/image_pc.jpg" alt="Efrei Campus and Portal" height="300" width="600">
-                    </a>
-                </div>
-            </section>
+        </div>
 
-            <nav>
-                <a href="./home.html">Home</a>
-                <a href="./faculty.html">Faculty</a>
-                <a href="./couses_training.html">Courses & Training</a>
-                <a href="./about_efrei.html">About Efrei</a>
-                <a href="./calendar.html">Calendar</a>
-            </nav>
-        </header>
-
-        <main>
-            <section id="hero">
-                <div class="carousel-placeholder">
-                    //add CAROUSEL
-                    <p>[Carousel Area - Use JS to rotate images here]</p>
-                </div>
-            </section>
-
-            <section id="intro">
-                <h2>About the Computer Science Department</h2>
-                <p>Step into the heart of digital innovation where technical mastery meets the leadership of tomorrow.</p>
-                
-                <a href="./about_efrei.html" class="button-style">Learn More</a>
-            </section>
-
-            <section id="details">
-                <a href="https://eng.efrei.fr/undergraduate-programs/computer-science/">
-                    <img src="../media/image_pc.jpg" alt="Students working on computers" height="300" width="600">
-                </a>
-                <p>
-                    The Computer Science Department focuses on transforming complex problems into efficient digital solutions through a mastery of <strong>strategies</strong> , <strong>multi-language programming</strong> (Python, C++, Java), and <strong>modern system architectures</strong>. 
-                    <br><br>
-                    By blending theoretical foundations in <strong>data structures</strong> and <strong>cybersecurity</strong> with intensive project-based learning, students evolve into versatile developers capable of designing sophisticated software from initial specification to final delivery.
+        <section id="department">
+            <div class="intro-content">
+                <h1>About Computer Science Departement</h1>
+                <p>Step into the heart of digital innovation where technical mastery meets the leadership of tomorrow.
                 </p>
-                
-                <button type="button" onclick="window.location.href='https://eng.efrei.fr/undergraduate-programs/computer-science/';" class="btn">
-                    Visit Official Site
-                </button>
-            </section>
-
-            <section id="academic-goals">
-                <h2>Our Pedagogical Approach</h2>
-                <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of <strong>efficiency</strong>, <strong>scalability</strong>, and <strong>performance</strong>.</p>
-                <div class="goals-container">
-                    <article>
-                        <h3>1. Logic & Problem Solving</h3>
-                        <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on teaching not just how to code, but how to think in terms of efficiency, scalability, and performance.</p>
-                    </article>
-
-                    <article>
-                        <h3>2. Software Mastery</h3>
-                        <p>Throughout the undergraduate cycle, students gain proficiency in essential languages including <strong>Python</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, and <strong>SQL</strong>.</p>
-                    </article>
-
-                    <article>
-                        <h3>3. Infrastructure & Security</h3>
-                        <p>Beyond simple coding, our curriculum explores the heart of the machine. Students dive into <strong>operating system mechanisms</strong>, <strong>IP network protocols</strong>, and <strong>database administration</strong>. The program concludes with an essential introduction to <strong>modern cybersecurity principles</strong> and <strong>parallel programming</strong>.</p>
-                    </article>
-                </div>
-
-            </section>
-
-            <section> 
-                <h2 id="chat-interface">Chat Interface</h2>
-
-                <div id="chat-messages"></div>
-
-                <div id="chat-input">
-                    <input type="text" id="user-input" placeholder="Ask your question...">
-                    <button id="send-button" onclick="fetchJSON('../json/intents.json')">Send</button>
-                    <button id="clear-button" onclick="clearChat()">Clear</button>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <nav>
-                <a href="./about_us.html">About us. Click here to learn more.</a>
-            </nav>
-
-            <div class="footer_bottom">
-                <p>© 2026 Audrey Mallet & Nour Gmati.<br> All rights reserved.</p>
-                <img src="../img/logo_efrei_vide.png" alt="Efrei Logo" width="100">
+                <button type="button" onclick="window.location.href='https://www.efrei.fr';" class="btn">Click to know
+                    more </button>
             </div>
-        </footer>
 
-        <script src="../js/script.js"></script>
-    </body>
+            <div class="intro-image">
+                <a href="https://www.myefrei.fr">
+                    <img src="../img/image_pc.jpg" alt="Efrei Campus and Portal" height="300" width="600">
+                </a>
+            </div>
+        </section>
+
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./faculty.html">Faculty</a>
+            <a href="./couses_training.html">Courses & Training</a>
+            <a href="./about_efrei.html">About Efrei</a>
+            <a href="./calendar.html">Calendar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="carousel-placeholder">
+                //add CAROUSEL
+                <p>[Carousel Area - Use JS to rotate images here]</p>
+            </div>
+        </section>
+
+        <section id="intro">
+            <h2>About the Computer Science Department</h2>
+            <p>Step into the heart of digital innovation where technical mastery meets the leadership of tomorrow.</p>
+
+            <a href="./about_efrei.html" class="button-style">Learn More</a>
+        </section>
+
+        <section id="details">
+            <a href="https://eng.efrei.fr/undergraduate-programs/computer-science/">
+                <img src="../media/image_pc.jpg" alt="Students working on computers" height="300" width="600">
+            </a>
+            <p>
+                The Computer Science Department focuses on transforming complex problems into efficient digital
+                solutions through a mastery of <strong>strategies</strong> , <strong>multi-language programming</strong>
+                (Python, C++, Java), and <strong>modern system architectures</strong>.
+                <br><br>
+                By blending theoretical foundations in <strong>data structures</strong> and
+                <strong>cybersecurity</strong> with intensive project-based learning, students evolve into versatile
+                developers capable of designing sophisticated software from initial specification to final delivery.
+            </p>
+
+            <button type="button"
+                onclick="window.location.href='https://eng.efrei.fr/undergraduate-programs/computer-science/';"
+                class="btn">
+                Visit Official Site
+            </button>
+        </section>
+
+        <section id="academic-goals">
+            <h2>Our Pedagogical Approach</h2>
+            <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We focus on
+                teaching not just how to code, but how to think in terms of <strong>efficiency</strong>,
+                <strong>scalability</strong>, and <strong>performance</strong>.</p>
+            <div class="goals-container">
+                <article>
+                    <h3>1. Logic & Problem Solving</h3>
+                    <p>Our students learn to deconstruct complex challenges into manageable algorithmic strategies. We
+                        focus on teaching not just how to code, but how to think in terms of efficiency, scalability,
+                        and performance.</p>
+                </article>
+
+                <article>
+                    <h3>2. Software Mastery</h3>
+                    <p>Throughout the undergraduate cycle, students gain proficiency in essential languages including
+                        <strong>Python</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>Java</strong>, and
+                        <strong>SQL</strong>.</p>
+                </article>
+
+                <article>
+                    <h3>3. Infrastructure & Security</h3>
+                    <p>Beyond simple coding, our curriculum explores the heart of the machine. Students dive into
+                        <strong>operating system mechanisms</strong>, <strong>IP network protocols</strong>, and
+                        <strong>database administration</strong>. The program concludes with an essential introduction
+                        to <strong>modern cybersecurity principles</strong> and <strong>parallel programming</strong>.
+                    </p>
+                </article>
+            </div>
+
+        </section>
+
+        <section>
+            <h2 id="chat-interface">Chat Interface</h2>
+
+            <div id="chat-messages"></div>
+
+            <div id="chat-input">
+                <input type="text" id="user-input" placeholder="Ask your question...">
+                <button id="send-button" onclick="fetchJSON('../json/intents.json')">Send</button>
+                <button id="clear-button" onclick="clearChat()">Clear</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="./about_us.html">About us. Click here to learn more.</a>
+        </nav>
+
+        <div class="footer_bottom">
+            <p>© 2026 Audrey Mallet & Nour Gmati.<br> All rights reserved.</p>
+            <img src="../img/logo_efrei_vide.png" alt="Efrei Logo" width="100">
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
 
 </html>
-

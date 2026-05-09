@@ -51,5 +51,3 @@ Associations: There are over 50 student-led clubs, many of which are technical (
 [Image clickable] Our partners -> https://www.efrei.fr/entreprises-partenaires/
 
 [Image clickable] Our associations -> https://www.efrei.fr/vie-associative/
-
-
