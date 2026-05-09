@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Sample events (replace or remove as needed)
         const events = [
-            { date: new Date(currentDate.getFullYear(), currentDate.getMonth(), 15), title: 'Midterm Exam' },
             { date: new Date(currentDate.getFullYear(), currentDate.getMonth(), 10), title: 'Project Deadline' },
-            { date: new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 5), title: 'Web Workshop' }
         ];
 
         function renderCalendar(date) {
