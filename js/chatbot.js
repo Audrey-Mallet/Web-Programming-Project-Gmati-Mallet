@@ -92,8 +92,10 @@ function processMessage(intents, message) {
         intent.patterns.forEach(pattern => {
             // Check if the user's message contains the pattern
             if (message.toLowerCase().includes(pattern.toLowerCase())) {
-                // Select a random answer from the list
-                response = intent.responses[Math.floor(Math.random() * intent.responses.length)];
+                // Select a random answer from the list if responses exist
+                if (intent.responses && intent.responses.length > 0) {
+                    response = intent.responses[Math.floor(Math.random() * intent.responses.length)];
+                }
             }
         });
     });
