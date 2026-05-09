@@ -85,18 +85,37 @@ body {
 footer {
     background-color: #f4f4f4;
     padding: 40px 5%;
-    text-align: center;
     border-top: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 }
 
-footer p {
+.btn-about:hover {
+    background-color: #eeeeee;
+    transform: translate(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.footer_bottom p {
     font-size: 0.85rem;
     color: #666666;
+    margin: 0;
 }
 
-footer nav a {
-    color: #000000;
-    text-decoration: underline;
+.footer_logo {
+    width: 80px;
+    height: auto;
+    opacity: 0.8;
 }
 
 /*===================================================*/
@@ -140,7 +159,18 @@ footer nav a {
     padding: 12px 25px;
 }
 
-/* On ajuste le H1 pour qu'il ne soit pas centré comme le reste du site */
+.btn:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.btn-about:hover:hover {
+    background-color: #eeeeee;
+    transform: translate(-2px);
+}
+
 #efrei-intro h1,
 #efrei-intro p {
     text-align: center;
@@ -170,6 +200,18 @@ footer nav a {
 #department .btn {
     align-self: center;
     margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.btn-about:hover:hover {
+    background-color: #eeeeee;
+    transform: translate(-2px);
 }
 
 #department .intro-image {
@@ -221,7 +263,17 @@ footer nav a {
     margin-top: 10px;
 }
 
+.btn:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
 
+.btn-about:hover:hover {
+    background-color: #eeeeee;
+    transform: translate(-2px);
+}
 
 /*===================================================*/
 
@@ -390,12 +442,27 @@ h2 {
 
 /*-------- SPECIFIC TO ABOUT_EFREI.HTML --------*/
 
-.info_grid {
+main ul {
+    display: inline-block;
+    text-align: left;
+    max-width: 700px;
+    margin: 10px auto 30px auto;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.info-grid {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 40px;
-    margin-top: 50px;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1000px;
 }
 
 .info-item {
@@ -406,8 +473,28 @@ h2 {
 
 .info-item img {
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
     border-radius: 12px;
     border: 1px solid #eeeeee;
     transition: transform 0.3s ease;
 }
+
+.info-item h3 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+}
+
+article {
+    text-align: center;
+}
+
+/*===================================================*/
+/*------- POUR TOUS -------*/
+/*survole des images (hors logo)*/
+img:hover {
+    transform: scale(1.02);
+}
+
+/*===================================================*/
