@@ -13,7 +13,7 @@ Step 2: Getting Started
 a. Home, which will serve as the index page (Introduction to the EFREI
 Computer Science Department, carousel, etc.).
 [DONE] [Home] 
-[] [About Efrei]
+[DONE] [About Efrei]
 
 b. Courses and training programs.
 [IN PROGRESS] (module + projet)
