@@ -6,6 +6,10 @@
                 "Hello",
                 "Hi",
                 "Cuckoo"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?"
             ]
         },
         {
