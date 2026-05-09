@@ -491,7 +491,73 @@ article {
 }
 
 /*===================================================*/
+
+/*------- SPECIFIC TO ABOUT_US.HTML -------*/
+
+#about-us .member-card {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px auto;
+    max-width: 800px;
+    text-align: left; 
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.1); 
+    transition: transform 0.3s ease;
+}
+
+#about-us .member-card:hover {
+    transform: scale(1.01);
+}
+
+#about-us .member-card h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 15px;
+    /*add a trace*/
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+#about-us .member-card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#about-us main article {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-us main article h2 {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#about-us main article ul {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+#about-us main article ul li {
+    margin-bottom: 10px;
+}
+
+
+/*===================================================*/
+
 /*------- POUR TOUS -------*/
+
 /*survole des images (hors logo)*/
 img:hover {
     transform: scale(1.02);
