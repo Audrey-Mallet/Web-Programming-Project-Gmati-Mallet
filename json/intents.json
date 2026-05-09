@@ -5,11 +5,14 @@
             "patterns": [
                 "Hello",
                 "Hi",
-                "Cuckoo"
+                "Hey",
+                "Good morning",
+                "Good afternoon"
             ],
             "responses": [
                 "Hello! How can I help you today?",
-                "Hi there! What can I do for you?"
+                "Hi there! What can I do for you?",
+                "Welcome to the Efrei Student Portal! How can I assist you?"
             ]
         },
         {
@@ -17,30 +20,87 @@
             "patterns": [
                 "Bye",
                 "See you soon",
-                "See you next time"
+                "See you next time",
+                "Goodbye",
+                "Have a good day"
             ],
             "responses": [
-                "See you soon! Don't hesitate if you have any more questions."
+                "See you soon! Don't hesitate if you have any more questions.",
+                "Goodbye! Have a great day!"
             ]
         },
         {
             "tag": "thanks",
             "patterns": [
                 "Thank you",
+                "Thanks",
                 "Thank you very much",
                 "Thank you for your help"
             ],
             "responses": [
-                "You're welcome! It's a pleasure to help you."
+                "You're welcome! It's a pleasure to help you.",
+                "Glad I could help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "authors",
+            "patterns": [
+                "Who made this",
+                "Who created this website",
+                "Who are the authors",
+                "Who are you",
+                "Who made you"
+            ],
+            "responses": [
+                "This website and I were created by Audrey Mallet and Nour Gmati for our Web Programming project at Efrei!"
+            ]
+        },
+        {
+            "tag": "efrei",
+            "patterns": [
+                "What is Efrei",
+                "Where is Efrei",
+                "Tell me about the school",
+                "Information about Efrei"
+            ],
+            "responses": [
+                "Efrei is an engineering school located in Paris. You can learn more by clicking on 'About Efrei' in our navigation menu!",
+                "We are proud Efrei students! Check out the 'About Efrei' page for more details about our campus and programs."
+            ]
+        },
+        {
+            "tag": "calendar",
+            "patterns": [
+                "When is the next exam",
+                "When is the project deadline",
+                "What is on the calendar",
+                "Show me events",
+                "Exams"
+            ],
+            "responses": [
+                "You can find all upcoming exams, deadlines, and events in the Calendar section. Scroll up to the calendar to see what's coming up!",
+                "All important dates like the Web Programming Project deadline are listed in the interactive Calendar on this page."
+            ]
+        },
+        {
+            "tag": "features",
+            "patterns": [
+                "What can you do",
+                "Help",
+                "Features",
+                "What is on this website"
+            ],
+            "responses": [
+                "On this website, you can view an interactive image gallery, check your upcoming student calendar, and chat with me!"
             ]
         },
         {
             "tag": "fallback",
             "patterns": [],
             "responses": [
-                "I'm sorry, I'm not sure I understand. Could you please rephrase your question ?",
-                "Sorry, I'm not sure I understand.",
-                "Sorry, I don't understand"
+                "I'm sorry, I'm not sure I understand. Could you please rephrase your question?",
+                "Sorry, I don't quite understand that. Try asking about Efrei, the calendar, or who created me!"
             ]
         }
     ]
