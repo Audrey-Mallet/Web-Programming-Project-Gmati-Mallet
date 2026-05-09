@@ -1,0 +1,48 @@
+FACULTY - COMPUTER SCIENCE DEPARTMENT
+
+Asma Gabis
+Enseignante-chercheuse en informatique et responsable du département informatique 
+
+Elle a obtenu son diplôme d'ingénieur d'État en informatique en 2006 à l'École nationale Supérieure d'Informatique (ESI) avant d'obtenir en 2010 son Magistère. 
+En 2021, elle obtient son doctorat et elle rejoint par la suite l'Efrei en 2022.
+
+LinkedIn: https://www.linkedin.com/in/asma-gabis-1ab439244/
+
+
+
+Rado Rakotonarivo
+Enseignant-chercheur en informatique 
+
+Rado Rakotonarivo a obtenu son Master en Mathématiques, Informatique et Statistiques Appliquées de l'Université d'Antananarivo (Madagascar) en 2016. 
+Il a poursuivi son cursus par un doctorat en informatique au sein du Laboratoire d'Informatique de Paris Nord (LIPN) de l'Université Sorbonne Paris Nord. Il rejoint l'Efrei en 2022.
+
+LinkedIn: https://www.linkedin.com/in/radoraktn/
+
+
+
+Nicolas Flasque
+Enseignant - Ingénieur Pédagogique 
+
+Ingénieur et Docteur en informatique, Nicolas enseigne à l’Efrei depuis plus de 20 ans. 
+Passionné de programmation en Python et C, il intervient aussi en mathématiques appliquées et contribue à l’évaluation d’outils numériques pour l’apprentissage.
+
+LinkedIn: https://www.linkedin.com/in/nicolas-flasque-48b25610/
+
+
+
+Amir Chachoui
+Enseignant en informatique 
+Diplômé « Manager en systèmes d’information » de l’école d’ingénieurs CESI, Amir possède une solide expérience en ingénierie de formation et en développement (Web, Mobile et 3D). 
+Après avoir exercé comme responsable pédagogique chez CESI Lille et piloté de nombreux projets technologiques en tant que freelance, il rejoint l'Efrei en 2025 pour enseigner l'informatique.
+
+LinkedIn: https://www.linkedin.com/in/amir-chachoui-b54807194/
+
+
+Léna Trebaul
+Enseignante en informatique
+
+Ingénieure diplômée des Mines de Saint-Étienne et Docteure en Biotechnologies, Léna a mené des recherches de haut niveau en neurosciences computationnelles, notamment à la Harvard Medical School. 
+Spécialisée en algorithmique, Python et Data/IA, elle rejoint l’Efrei en 2024 où elle occupe également les fonctions de responsable pédagogique et responsable de l'équipe de compétition.
+
+LinkedIn: https://www.linkedin.com/in/lena-trebaul-75711b57/
+
